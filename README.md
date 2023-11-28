@@ -1,5 +1,5 @@
 # Data Analyst Portfolio
-### About Me
+## About Me
 I am a chemical lab technician with a strong chemistry (M.S. Chemistry) and solid math background. After completing my Master's thesis in computational chemistry, I developed an interest in Python and machine learning. I enrolled in multiple data science bootcamps for both Python and R to start my self-teaching journey:
 
 * [Data Science and Machine Learning Bootcamp with R](https://www.udemy.com/course/data-science-and-machine-learning-bootcamp-with-r/)
@@ -14,7 +14,7 @@ In this repository, you can find some examples of my data analysis projects in P
 
 A fun fact about me is I build my own wristwatches ⌚ Check out my watch page on [Instagram](https://www.instagram.com/protontimepieces/) 
 
-### Projects
+## Projects
 #### Toxics Release Inventory Data, 2010 - 2021 (PowerBI)
 I pulled TRI data from [data.gov](https://catalog.data.gov/dataset/toxics-release-inventory-tri) and read it into R. The catch here was that each year has it's own csv file, so the data had to be joined with ```rbind```. This is the first PowerBI dashboard I've ever made since I've never needed in my past academic work. You can order by "Number of Releases" and "Releases by State." The fraction of carcinogenic releases is also shown, as well as the top industry sectors and top chemicals (or chemical types) released. The time range (in years) can be changed to select a smaller number of years to view. As someone who works in the chemical industry, I find it interesting to see which types of chemicals are most commonly released in the US, and which companies are the biggest releasers.
 
