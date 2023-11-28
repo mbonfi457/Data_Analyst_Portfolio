@@ -16,6 +16,7 @@ A fun fact about me is I build my own wristwatches ⌚ Check out my watch page o
 
 ## Projects
 #### Toxics Release Inventory Data, 2010 - 2021 (PowerBI)
+![TRI PowerBI Dashboard](https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-11-28%20081243.png)
 I pulled TRI data from [data.gov](https://catalog.data.gov/dataset/toxics-release-inventory-tri) and read it into R. The catch here was that each year has it's own csv file, so the data had to be joined with ```rbind```. This is the first PowerBI dashboard I've ever made since I've never needed in my past academic work. You can order by "Number of Releases" and "Releases by State." The fraction of carcinogenic releases is also shown, as well as the top industry sectors and top chemicals (or chemical types) released. The time range (in years) can be changed to select a smaller number of years to view. As someone who works in the chemical industry, I find it interesting to see which types of chemicals are most commonly released in the US, and which companies are the biggest releasers.
 
 The dataset has been modified to keep only the more relevant variables including but not limited to company name, carcinogenicity, chemical, state.
