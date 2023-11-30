@@ -19,6 +19,8 @@ A fun fact about me is I build my own wristwatches ⌚ Check out my watch page o
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-11-28%20081243.png" alt="drawing" width="750"/>
 I pulled TRI data from [data.gov](https://catalog.data.gov/dataset/toxics-release-inventory-tri) and read it into R. The catch here was that each year has it's own csv file, so the data had to be joined with ```rbind```. This is the first PowerBI dashboard I've ever made since I've never needed in my past academic work. You can order by "Number of Releases" and "Releases by State." The fraction of carcinogenic releases is also shown, as well as the top industry sectors and top chemicals (or chemical types) released. The time range (in years) can be changed to select a smaller number of years to view. As someone who works in the chemical industry, I find it interesting to see which types of chemicals are most commonly released in the US, and which companies are the biggest releasers.
 
-The dataset has been modified to keep only the more relevant variables including but not limited to company name, carcinogenicity, chemical, state.
+I've added a brief exploratory data analysis using R [here](https://github.com/mbonfi457/TRI_data/blob/main/TRI_analysis.R)
+
+The dataset has been modified in PowerBI to keep only the more relevant variables including but not limited to company name, carcinogenicity, chemical, state.
 
 *Note that the EPA refers to "chemical releases" as different ways that toxic chemicals from industrial facilties enter the air, water, and land. Releases include spilling, leaking, pumping, pouring, emitting, emptying, discharging, injecting, escaping, leaching, dumping, or disposing into the environment, are can be either intentional or unintentional.*
