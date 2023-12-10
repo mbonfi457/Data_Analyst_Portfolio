@@ -23,6 +23,7 @@ I've added a brief exploratory data analysis using R [here](https://github.com/m
 
 *Note that the EPA refers to "chemical releases" as different ways that toxic chemicals from industrial facilties enter the air, water, and land. Releases include spilling, leaking, pumping, pouring, emitting, emptying, discharging, injecting, escaping, leaching, dumping, or disposing into the environment, are can be either intentional or unintentional.*
 
+
 ### New York Motor Vehicle Collisions analysis, 2012 2023 (R, R Markdown)
 This exploratory data analysis of motor vehicle collision reports from [the City of New York](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes/resource/b5a431d2-4832-43a6-9334-86b62bdb033f) probes various distributions in search of trends and distributions hidden in these mandated MV-104AN police reports, and I include some ideas as to why some of these trends may exist in the data. I performed this analysis in RStudio a compiled it into a report in R Markdown, which can both be found in the [NY_car_crashes repo](https://github.com/mbonfi457/NY_car_crashes).
 
