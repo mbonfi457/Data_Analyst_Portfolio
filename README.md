@@ -1,4 +1,4 @@
-# Matthew's Data Analysis Portfolio
+# Matthew's Data Project Portfolio
 ## About Me
 I am a chemical lab technician with a strong chemistry (M.S. Chemistry) and solid math background. After completing my Master's thesis in computational chemistry, I developed an interest in Python and machine learning. I enrolled in multiple data science bootcamps for both Python and R to start my self-teaching journey:
 
