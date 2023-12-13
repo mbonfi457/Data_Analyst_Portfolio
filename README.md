@@ -28,7 +28,11 @@ I've added a brief exploratory data analysis using R, which can be found in my T
 This exploratory data analysis of motor vehicle collision reports from [the City of New York](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes/resource/b5a431d2-4832-43a6-9334-86b62bdb033f) probes various distributions in search of trends and distributions hidden in these MV-104AN police reports, and I include some ideas as to why some of these trends may exist in the data. Location data was also plotted on a Carto OpenStreetMap with the ```leaflet``` package, and the ```sf``` package was used to generate an ```sf object``` needed for plotting. This was my first time plotting location data on a real map so it was pretty exciting for me to learn.
 I performed this analysis in RStudio a compiled it into a report in R Markdown.
 
-<img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20113926.png" alt="drawing" width="350"/>
+<p float="left">
+  <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20113926.png" width="350" />
+  <img src="https://github.com/mbonfi457/NY_car_crashes/blob/main/death_animated.gif" width="650" height="350" /> 
+</p>
 
+I also had fun playing around with the ```gganimate``` package by making this animated gif, which plots the number of collision-related deaths in each borough over time.
 I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing arrival time of EMS and police may reduce the chances of a victim succumbing to injuries.
 
