@@ -15,16 +15,20 @@ In this repository, you can find some examples of my data analysis projects in P
 A fun fact about me is I build my own wristwatches ⌚ Check out my watch page on [Instagram](https://www.instagram.com/protontimepieces/) 
 
 ## Projects
-### Toxics Release Inventory Data, 2010 - 2021 (PowerBI, R)
+### [Toxics Release Inventory Data, 2010 - 2021](https://github.com/mbonfi457/TRI_data/blob/main/TRI_analysis.R) (PowerBI, R)
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-11-28%20081243.png" alt="drawing" width="750"/>
 I pulled TRI data from [data.gov](https://catalog.data.gov/dataset/toxics-release-inventory-tri) and read it into R. The catch here was that each year has it's own csv file, so the data has to be combined. This is the first PowerBI dashboard I've ever made since I've never needed in my past academic work. You can order by "Number of Releases" and "Releases by State." The fraction of carcinogenic releases is also shown, as well as the top industry sectors and top chemicals (or chemical types) released. The time range (in years) can be changed to select a smaller number of years to view. As someone who works in the chemical industry, I find it interesting to see which types of chemicals are most commonly released in the US, and which companies are the biggest releasers.
 
-I've added a brief exploratory data analysis using R [here](https://github.com/mbonfi457/TRI_data/blob/main/TRI_analysis.R). The dataset has been modified in PowerBI to keep only the more relevant variables including but not limited to company name, carcinogenicity, chemical, state.
+I've added a brief exploratory data analysis using R, which can be found in my TRI data repo. The dataset has been modified in PowerBI after the fact to keep only the more relevant variables including but not limited to company name, carcinogenicity, chemical, state.
 
 *Note that the EPA refers to "chemical releases" as different ways that toxic chemicals from industrial facilties enter the air, water, and land. Releases include spilling, leaking, pumping, pouring, emitting, emptying, discharging, injecting, escaping, leaching, dumping, or disposing into the environment, are can be either intentional or unintentional.*
 
 
-### New York Motor Vehicle Collisions analysis, 2012 - 2023 (R, R Markdown)
-This exploratory data analysis of motor vehicle collision reports from [the City of New York](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes/resource/b5a431d2-4832-43a6-9334-86b62bdb033f) probes various distributions in search of trends and distributions hidden in these mandated MV-104AN police reports, and I include some ideas as to why some of these trends may exist in the data. I performed this analysis in RStudio a compiled it into a report in R Markdown, which can be found in the [NY_car_crashes repo](https://github.com/mbonfi457/NY_car_crashes).
+### [New York Motor Vehicle Collisions analysis, 2012 - 2023](https://github.com/mbonfi457/NY_car_crashes) (R, R Markdown)
+This exploratory data analysis of motor vehicle collision reports from [the City of New York](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes/resource/b5a431d2-4832-43a6-9334-86b62bdb033f) probes various distributions in search of trends and distributions hidden in these MV-104AN police reports, and I include some ideas as to why some of these trends may exist in the data. Location data was also plotted on a Carto OpenStreetMap, using the ```sf``` package which converts dataframes to "special feature" objects. This was my first time ever plotting location data on a real map so it was pretty exciting for me to learn.
+I performed this analysis in RStudio a compiled it into a report in R Markdown.
 
+<img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20113926.png" alt="drawing" width="350"/>
+
+I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing arrival time of EMS and police may reduce the chances of a victim(s) succumbing to injuries.
 
