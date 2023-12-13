@@ -25,7 +25,7 @@ I've added a brief exploratory data analysis using R, which can be found in my T
 
 
 ### [New York Motor Vehicle Collisions analysis, 2012 - 2023](https://github.com/mbonfi457/NY_car_crashes) (R, R Markdown)
-This exploratory data analysis of motor vehicle collision reports from [the City of New York](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes/resource/b5a431d2-4832-43a6-9334-86b62bdb033f) probes various distributions in search of trends and distributions hidden in these MV-104AN police reports, and I include some ideas as to why some of these trends may exist in the data. Location data was also plotted on a Carto OpenStreetMap, using the ```sf``` package which converts dataframes to "special feature" objects. This was my first time ever plotting location data on a real map so it was pretty exciting for me to learn.
+This exploratory data analysis of motor vehicle collision reports from [the City of New York](https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes/resource/b5a431d2-4832-43a6-9334-86b62bdb033f) probes various distributions in search of trends and distributions hidden in these MV-104AN police reports, and I include some ideas as to why some of these trends may exist in the data. Location data was also plotted on a Carto OpenStreetMap with the ```leaflet``` package, and the ```sf``` package was used to generate an ```sf object``` needed for plotting. This was my first time plotting location data on a real map so it was pretty exciting for me to learn.
 I performed this analysis in RStudio a compiled it into a report in R Markdown.
 
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20113926.png" alt="drawing" width="350"/>
