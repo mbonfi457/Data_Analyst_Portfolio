@@ -30,5 +30,5 @@ I performed this analysis in RStudio a compiled it into a report in R Markdown.
 
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20113926.png" alt="drawing" width="350"/>
 
-I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing arrival time of EMS and police may reduce the chances of a victim(s) succumbing to injuries.
+I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing arrival time of EMS and police may reduce the chances of a victim succumbing to injuries.
 
