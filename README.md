@@ -34,5 +34,8 @@ I performed this analysis in RStudio a compiled it into a report in R Markdown.
 </p>
 
 I also had fun playing around with the ```gganimate``` package by making this animated gif, which plots the number of collision-related deaths in each borough over time.
-I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing arrival time of EMS and police may reduce the chances of a victim succumbing to injuries.
+I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing the arrival time of EMS and police may reduce the chances of a victim succumbing to injuries.
+
+### [Mega Millions Lotto Numbers, 2002-2023 (Python, Jupyter, Time-series forecasting)]("https://github.com/mbonfi457/lotto_numbers")
+This is an older analysis I had performed when data science was merely a hobby interest. You'll find here a simple analysis of winning number distributions that span over two decades. I also tried my hand at applying a triple-exponential forecasting ML algorithm (FB Prophet). Splitting the data into training and testing sets, I was able to generate predictions of future drawings for each lotto number. I learned that you cannot reliably predict randomly drawn numbers with any significant accuracy, but this trial served as a good hands-on exercise for applying a machine-learning algorithm.
 
