@@ -42,4 +42,3 @@ This is an older analysis I had performed when data science was merely a hobby i
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20171135.png" width="600" />
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20171134.png" width="600" /> 
 
-Fortunately, I have since gained more knowledge of machine learning and statistics from my course work at Georgia Tech thus far. 
