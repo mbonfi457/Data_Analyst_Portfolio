@@ -1,6 +1,6 @@
 # Matthew's Data Project Portfolio
 ## About Me
-I am a chemical lab technician with a strong chemistry and math (M.S. Chemistry) background. After completing my Master's program in computational chemistry, I developed an interest in Python and machine learning. I enrolled in multiple data science bootcamps for both Python and R to start my self-teaching journey:
+I am a chemical lab technician with a strong background in science. After completing my Master's program in computational chemistry, I developed an interest in Python and machine learning. I enrolled in multiple data science bootcamps for both Python and R to start my self-teaching journey:
 
 * [Data Science and Machine Learning Bootcamp with R](https://www.udemy.com/course/data-science-and-machine-learning-bootcamp-with-r/)
 * [Python for Data Science and Machine Learning Bootcamp](https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
@@ -8,9 +8,9 @@ I am a chemical lab technician with a strong chemistry and math (M.S. Chemistry)
 
 These courses served as the groundwork for my evolving interest in the field!
 
-Fast forward and I'm almost through my second semester in the Master of Science in Data Analytics program at Georgia Tech 🐝📚🔬 (OMSA) and am planning on completing the "C-track", or Computational Data Analytics, which focuses on Big Data and Machine Learning! My goal is to become a data analyst or data scientist in tech 🌐, physical sciences ⚛, or business 📈, specifically applying predictive modeling.
+Fast forward and I'm almost through my second semester in the Master of Science in Data Analytics program at Georgia Tech 🐝📚🔬 (OMSA) and am planning on completing the "C-track", or Computational Data Analytics, which focuses on Big Data and Machine Learning! My goal is to become a data analyst or data scientist in tech 🌐, physical sciences ⚛, or business 📈, specifically applying predictive modeling for generating useful insights.
 
-In this repository, you can find some examples of my data analysis projects in Python, SQL, PowerBI, and R. For more information about my background, please check out my [LinkedIn profile here](https://www.linkedin.com/in/matthew-bonfield-m-s-443843179/). I also have some "odds and ends" projects in some of my other repos. They're FAR from polished but take a look if you feel so inclined.
+In this repository, you can find some examples of my data analysis projects in Python, PowerBI, and R. For more information about my background, please check out my [LinkedIn profile here](https://www.linkedin.com/in/matthew-bonfield-m-s-443843179/). I also have some "odds and ends" projects in some of my other repos. They're FAR from polished but take a look if you feel so inclined.
 
 A fun fact about me is I build my own wristwatches ⌚ Check out my watch page on [Instagram](https://www.instagram.com/protontimepieces/) 
 
@@ -36,8 +36,8 @@ I performed this analysis in RStudio a compiled it into a report in R Markdown.
 I also had fun playing around with the ```gganimate``` package by making this animated gif, which plots the number of collision-related deaths in each borough over time.
 I believe that plotting these accidents and related deaths could be useful for determining the best locations for emergency service stations or patrols to be staffed. Minimizing the arrival time of EMS and police may reduce the chances of a victim succumbing to injuries.
 
-### [Mega Millions Lotto Numbers, 2002-2023 (Python, Jupyter, Time-series forecasting)](https://github.com/mbonfi457/lotto_numbers)
-This is an older analysis I had performed when data science was merely a hobby interest. You'll find here a simple analysis of winning number distributions that span over two decades. I also tried my hand at applying the ```FB Prophet``` model, a triple-exponential forecasting algorithm in the ```prophet``` package. Splitting the data into training and testing sets, I was able to generate predictions of future drawings for each lotto number. I learned that you cannot reliably predict randomly drawn numbers with any significant accuracy, but this trial served as a good hands-on exercise for applying a machine-learning algorithm.
+### [Mega Millions Lotto Numbers, 2002-2023 (Python, Jupyter, Time-series forecasting)](https://github.com/mbonfi457/lotto_numbers) (Python, Jupyter notebook)
+This is an older analysis I had performed when data analysis was merely a hobby interest. You'll find here a simple analysis of winning number distributions that span over two decades of Powerball data. I also tried my hand at applying the ```FB Prophet``` model, a triple-exponential forecasting algorithm developed by Facebook's own core data science team. Splitting the data into training and testing sets, I was able to generate predictions of future drawings for each lotto number. I learned that you cannot reliably predict randomly drawn numbers with any significant accuracy, but this trial served as a good hands-on exercise for applying a forecasting model on real-world data.
 
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20171135.png" width="600" />
 <img src="https://github.com/mbonfi457/Data_Analyst_Portfolio/blob/main/Screenshot%202023-12-13%20171134.png" width="600" /> 
